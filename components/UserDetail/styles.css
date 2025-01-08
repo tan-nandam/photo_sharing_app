@@ -1,0 +1,128 @@
+/* General page styling */
+body {
+  font-family: 'Roboto', sans-serif; /* Material-UI compatible font */
+  background-color: #f4f4f9; /* Light background */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Neutral text color */
+}
+
+/* Center and style the entire page */
+.user-details-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styling */
+.user-details {
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #1976d2; /* Accent underline */
+  padding-bottom: 10px;
+}
+
+/* User details section (unstyled) */
+.MuiListItem-root {
+  border-bottom: 1px solid #e0e0e0; /* Divider between list items */
+  padding: 8px 16px;
+}
+
+.MuiListItem-root:last-child {
+  border-bottom: none; /* Remove last item border */
+}
+
+/* Button styling */
+button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1976d2; /* Material-UI primary color */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #155a9c; /* Darker hover effect */
+}
+
+/* Photos section layout */
+.photos-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Container styling for photo cards */
+.recent-photo-container,
+.highly-commented-photo-container {
+  flex: 1; /* Equal width for containers */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fafafa; /* Subtle contrast background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Light shadow */
+  transition: transform 0.2s ease;
+}
+
+.recent-photo-container:hover,
+.highly-commented-photo-container:hover {
+  transform: translateY(-5px); /* Subtle hover effect */
+}
+
+/* Thumbnail images */
+.thumbnail {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Text details below images */
+.date,
+.comments-count {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.caption {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #444;
+  text-align: center;
+}
+
+/* "No comments" message */
+.no-comments {
+  font-size: 1rem;
+  font-style: italic;
+  color: #999;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .photos-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+  }
+
+  .recent-photo-container,
+  .highly-commented-photo-container {
+      max-width: 100%;
+  }
+}

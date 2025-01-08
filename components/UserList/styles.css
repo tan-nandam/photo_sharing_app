@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* List Item Styling */
+.MuiListItem-root {
+    padding: 0; /* Remove padding to better fit the button */
+  }
+  
+  /* Divider Styling */
+  .MuiDivider-root {
+    margin: 0; /* Remove margin for a cleaner look */
+  }
+  

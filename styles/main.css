@@ -1,0 +1,50 @@
+html, body, #photoshareapp {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Add this class to create space below the top bar */
+.main-topbar-buffer {
+  margin-top: 70px; /* Adjust this to match the height of your TopBar */
+}
+
+/* Main Grid */
+.main-grid {
+  flex-grow: 1;
+  overflow: auto; /* Allow scrolling */
+  padding: 20px;
+}
+
+/* User List Paper */
+.user-list-paper {
+  padding: 10px;
+  height: 100%; /* Take full height of the grid item */
+}
+
+/* Main Content Paper */
+.main-content-paper {
+  padding: 20px;
+  height: 100%; /* Take full height of the grid item */
+}
+
+/* Additional Styling for Typography */
+body {
+  font-family: 'Roboto', sans-serif; /* Ensure you include Roboto for Material-UI */
+}
+
+a {
+  color: #1976d2; /* Material-UI primary color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
