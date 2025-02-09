@@ -3,7 +3,7 @@
 ## About
 This is a **Stanford Application**, designed as a full-featured **photo-sharing platform** using the **MERN (MongoDB, Express, React, Node.js) stack**. Users can upload photos, interact with each other, and manage privacy settings effectively.
 
-![App Screenshot](images/ps-login.jpeg)
+![App Screenshot](images/ps-login.JPEG)
 
 ## Features
 
