@@ -39,8 +39,8 @@ This is a **Stanford Application**, designed as a full-featured **photo-sharing 
 ### Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/photo-app.git
-   cd photo-app
+   git clone https://github.com/tan-nandam/photo_sharing_app.git
+   cd photo_sharing_app
    ```
 2. **Install dependencies:**
    ```sh
@@ -48,25 +48,33 @@ This is a **Stanford Application**, designed as a full-featured **photo-sharing 
    ```
 3. **Start the backend server:**
    ```sh
-   npm run server
+   node webServer.js
    ```
 4. **Start the frontend:**
    ```sh
-   cd client
    npm install
-   npm start
+   npm run build
    ```
 
 ## Screenshots
 
-### User Profile Page
-![User Profile](./images/user_profile.png)
+### Photos Registration
+![Registration](images/ps-registration.JPEG)
 
-### Photo Gallery
-![Photo Gallery](./images/photo_gallery.png)
+### Photos Dashboard
+![Dashboard](images/ps-dashboard.JPEG)
 
-### Activity Feed
-![Activity Feed](./images/activity_feed.png)
+### Photos Activities
+![Avtivity Feed](images/ps-activities.JPEG)
+
+### Photos Favorites
+![Favorites](images/ps-favorites.JPEG)
+
+### Photos Upload
+![Photo Upload](images/ps-photo-upload.JPEG)
+
+### Photos Viewer
+![Photo Viewer](images/ps-photo-viewer.JPEG)
 
 ## License
 This project is developed as part of a **Stanford Application**. All rights reserved.
